@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(196, 219, 212);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: #aba498;
+    min-height: 150px;
+    text-align: center;
+    img {max-width: 986px;
+    }
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+
+    form{
+        margin: 40px 0;
+    }
+    
+    form label, form legend{
+        display: block;
+        font-size: 20px;
+        margin: 0 0 10px;
+    }
+    .inputpadrao{
+        display: block;
+        margin: 0 0 20px;
+        padding: 10px 20px;
+        width: 50%;
+    }
+        .checkbox{
+    
+            margin: 30px 0 ;
+    
+    
+        }
+    
+    form submit{
+        display: block;
+     
+    }
+    
+    .enviar{
+    
+        width: 40%;
+        padding: 15px 0;
+        background-color:#aba498;
+        color: aliceblue;
+        font-weight: bold;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        transition: 2s all;
+        cursor: pointer;
+    }
+    
+
+    
+}
+.footer {
+    text-align: center;
+    background-color: white;
+    min-height: 150px;
+    
+
+}
